@@ -2,10 +2,12 @@
   "name": "infinite-battle-vue",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
-  },
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build && npm run copyFile",
+		"copy:js": "copyfiles -f ./dist/js/* ../InfiniteBattle/wwwroot/js",
+		"copyFile": "npm run copy:js"
+	},
   "description": "InfiniteBattleVue",
   "author": {
     "name": ""
@@ -16,11 +18,12 @@
     "vue-property-decorator": "7.0.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "3.0.4",
+    "@vue/cli-plugin-babel": "^3.7.0",
     "@vue/cli-plugin-typescript": "3.0.4",
-    "@vue/cli-service": "3.0.4",
+    "@vue/cli-service": "^3.7.0",
     "typescript": "3.1.1",
-    "vue-template-compiler": "2.5.17"
+    "vue-template-compiler": "2.5.17",
+    "copyfiles": "^2.1.0"
   },
   "postcss": {
     "plugins": {
