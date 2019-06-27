@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfiniteBattle", "InfiniteBattle\InfiniteBattle.csproj", "{304F8BB7-7C96-4BF4-B42C-9460D9E8DC77}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "InfiniteBattleVue", "InfiniteBattleVue\InfiniteBattleVue.njsproj", "{73249551-E8F4-447B-A17D-17EFD7DA792C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{304F8BB7-7C96-4BF4-B42C-9460D9E8DC77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{304F8BB7-7C96-4BF4-B42C-9460D9E8DC77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{304F8BB7-7C96-4BF4-B42C-9460D9E8DC77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73249551-E8F4-447B-A17D-17EFD7DA792C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73249551-E8F4-447B-A17D-17EFD7DA792C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73249551-E8F4-447B-A17D-17EFD7DA792C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73249551-E8F4-447B-A17D-17EFD7DA792C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
